@@ -7,7 +7,7 @@ to evaluate driver’s performance & also notify the driver using GUI console if
 3. Also, the rash driving of cars affects the car performance such as reduction in fuel economy, reduction in the performance of engine, wearing & burning of
 some mechanical parts in some cases, etc.
 
-4. Thus,the main aim of this project is to implement a system which will monitor the driver performance & will generate a report depending upon the driving skills of the driver. 
+4. Thus, the main aim of this project is to implement a system which will monitor the driver performance & will generate a report depending upon the driving skills of the driver. 
 
  Components Used:
  1. OBD II device
@@ -17,10 +17,9 @@ some mechanical parts in some cases, etc.
  5. Switching circuit for Gears
  6. IR Sensor
  
-Implementation Strategy:
-1. Continuously monitor & measure car parameters using OBD II tool.
-2. Use Rasp Berry Pi with OBD device to detect rash driving related parameters by writing efficient algorithm in it.
-3. Notify the driver immediately if there is rash driving so that he/she will drive
-   the car efficiently
-4. Creating a report using the stored value.
-5. Creating a bar graph from the error count.
+ Accomplishments:
+1. Continuously monitored & measured car parameters using OBD II tool.
+2. Successfully used Rasp Berry Pi with OBD device to detect rash driving related parameters by writing efficient algorithm in it.
+3. On detection of rash or inefficient driving, notified the driver immediately so that he/she will drive the car efficiently
+4. Created a report using the stored values of inefficient driving parameters, i.e., error count.
+5. Generated a bar graph from the error count.
